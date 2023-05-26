@@ -58,6 +58,8 @@ Normalization is about trying to increase data integrity by reducing the number 
 
 Denormalization is trying to increase performance by reducing the number of joins between tables (as joins can be slow). Data integrity will take a bit of a potential hit, as there will be more copies of the data (to reduce JOINS).
 
+Read more: https://medium.com/analytics-vidhya/database-normalization-vs-denormalization-a42d211dd891#:~:text=Normalization%20is%20the%20technique%20of,to%20make%20data%20retrieval%20faster.
+
 ## Star Schema:
 ---
 * Simplest style of data mart schema
