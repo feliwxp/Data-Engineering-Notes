@@ -17,6 +17,8 @@ Databases optimized for these workloads allow for less complex queries in large 
 
 * The key to remember the difference between OLAP and OLTP is analytics (A) vs transactions (T). If you want to get the price of a shoe then you are using OLTP (this has very little or no aggregations). If you want to know the total stock of shoes a particular store sold, then this requires using OLAP (since this will require aggregations).
 
+Read more: https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/whats-the-difference-between-oltp-and-olap-bdcafdffb1c3
+
 ## Normal Forms:
 ---
 ### Objectives:
@@ -24,6 +26,8 @@ Databases optimized for these workloads allow for less complex queries in large 
 2. To reduce the need for refactoring the database as new types of data are introduced
 3. To make the relational model more informative to users
 4. To make the database neutral to the query statistics
+
+Read more: https://www.freecodecamp.org/news/database-normalization-1nf-2nf-3nf-table-examples/
 
 ### Types of Normal Forms:
 #### First Normal Form (1NF):
