@@ -81,3 +81,5 @@ Read more: https://medium.com/analytics-vidhya/database-normalization-vs-denorma
 * Dimensions of snowflake schema are elaborated, having multiple levels of relationships, child tables having multiple parents
 * Star schema is a special, simplified case of snowflake schema
 * Star schema does not allow for one to many relationships while snowflake schema does
+
+Read more: https://www.guru99.com/star-snowflake-data-warehousing.html
