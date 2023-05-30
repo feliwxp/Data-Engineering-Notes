@@ -1,7 +1,3 @@
-#Instructions
-#In this exercise, we’ll place our S3 to RedShift Copy operations into a SubDag.
-#1 - Consolidate HasRowsOperator into the SubDag
-#2 - Reorder the tasks to take advantage of the SubDag Operators
 
 import datetime
 
