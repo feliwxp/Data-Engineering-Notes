@@ -3,6 +3,12 @@
 2. Conceptual Data Modelling
 3. Logical Data Modelling
 
+## The three types of data models:
+
+1. Physical data model - This is where the framework or schema describes how data is physically stored in the database.
+2. Conceptual data model - This model focuses on the high-level, user’s view of the data in question
+3. Logical data models - They straddle between physical and theoretical data models, allowing the logical representation of data to exist apart from the physical storage.
+
 ## Important Feature of RDBMS:
 **Atomicity** - Whole transaction or nothing is processed  
 **Consistency** - Only transactions abiding by constraints & rules is written into database  

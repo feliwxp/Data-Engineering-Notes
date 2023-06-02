@@ -20,6 +20,8 @@ Databases optimized for these workloads allow for less complex queries in large 
 Read more: https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/whats-the-difference-between-oltp-and-olap-bdcafdffb1c3
 
 ## Normal Forms:
+
+Database normalization entails organizing a database into several tables in order to reduce redundancy.
 ---
 ### Objectives:
 1. To free the database from unwanted insertions, updates, & deletion dependencies
@@ -83,3 +85,13 @@ Read more: https://medium.com/analytics-vidhya/database-normalization-vs-denorma
 * Star schema does not allow for one to many relationships while snowflake schema does
 
 Read more: https://www.guru99.com/star-snowflake-data-warehousing.html
+
+## Fact vs Dimension Table
+|Fact Table   |Dimension Table   |
+| ------------ | ------------ |
+| A fact table stores the measurements together with the properties of dimension tables.  | The qualities along which the fact table calculates the metric are stored in the dimension tables.  |
+|There are fewer attributes in a fact table, but there are more records.   |The dimension table has fewer records and more attributes.   |
+|The primary key of a fact table is a concatenation of the primary keys of all dimension tables.   | Dimension tables have individual primary keys.  |
+| You can create fact tables only when a dimension table is complete.  |You must create dimension tables first, i.e., before fact tables.   |
+| There are fewer fact tables in a schema.  | There are more dimension tables in a schema.  |
+| The data in a fact table can be numerical or textual.  | A dimension table always has textual attributes only.  |
