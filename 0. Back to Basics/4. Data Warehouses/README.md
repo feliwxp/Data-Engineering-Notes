@@ -9,7 +9,10 @@
     * Handles new business questions well
     * Secure
 
-Data marts and data warehouses are both highly structured repositories where data is stored and managed until it’s needed. However, they differ in the scope of data stored: data warehouses are built to serve as the central store of data for the entire business, whereas a data mart fulfills the request of a specific division or business function. Because a data warehouse contains data for the entire company, the best practice to have strictly control who can access it. Additionally, querying the data you need in a data warehouse is an incredibly difficult task for the business. Thus, the primary purpose of a data mart is to isolate — or partition — a smaller set of data from a whole to provide easier data access for the end consumers.
+
+## What is a data mart?
+---
+A data mart is a subject-oriented database that is usually a split portion of a larger warehouse. The data subset in a data mart usually relates to a certain business area, such as sales, finance, or marketing. Data marts speed up business operations by allowing users to access essential data from a warehouse or operational data store in very less time. A data mart is a cost-effective solution to efficiently acquire meaningful insights since it only comprises data relevant to a specific business area.
 
 ## Architecture
 ---

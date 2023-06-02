@@ -19,6 +19,14 @@ Databases optimized for these workloads allow for less complex queries in large 
 
 Read more: https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/whats-the-difference-between-oltp-and-olap-bdcafdffb1c3
 
+|Online-transactional processing (OLTP)   | Online Analytical Processing (OLAP)  |
+| ------------ | ------------ |
+|OLTP databases enable normalization in tables.   |OLAP databases do not allow normalization in tables.   |
+|OLTP supports the traditional database management systems approach.  |OLAP supports the data warehouse approach.   |
+|OLTP has a response time of milliseconds.   |OLAP has a response time of seconds to minutes.   |
+| OLTP databases comprise several quick online transactions.  |OLAP databases comprise large data volumes.   |
+|OLTP is a real-time transaction processing system.   | OLAP is a database that allows you to analyze business metrics by category and attribute.  |
+
 ## Normal Forms:
 
 Database normalization entails organizing a database into several tables in order to reduce redundancy.
@@ -87,6 +95,7 @@ Read more: https://medium.com/analytics-vidhya/database-normalization-vs-denorma
 Read more: https://www.guru99.com/star-snowflake-data-warehousing.html
 
 ## Fact vs Dimension Table
+---
 |Fact Table   |Dimension Table   |
 | ------------ | ------------ |
 | A fact table stores the measurements together with the properties of dimension tables.  | The qualities along which the fact table calculates the metric are stored in the dimension tables.  |
