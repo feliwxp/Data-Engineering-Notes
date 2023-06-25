@@ -70,6 +70,10 @@ Denormalization is trying to increase performance by reducing the number of join
 
 Read more: https://medium.com/analytics-vidhya/database-normalization-vs-denormalization-a42d211dd891#:~:text=Normalization%20is%20the%20technique%20of,to%20make%20data%20retrieval%20faster.
 
+## What is a Database Schema and Why Does it Matter?
+--
+- The importance of a database schema lies in its ability to outline the logical layout of a database and keep data organized. It helps users identify which tables, columns, and relationships exist between objects, enabling them to efficiently access, query, or modify data.
+
 ## Star Schema:
 ---
 * Simplest style of data mart schema

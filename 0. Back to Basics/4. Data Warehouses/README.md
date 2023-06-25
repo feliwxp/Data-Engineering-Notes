@@ -15,6 +15,9 @@
 A data mart is a subject-oriented database that is usually a split portion of a larger warehouse. The data subset in a data mart usually relates to a certain business area, such as sales, finance, or marketing. Data marts speed up business operations by allowing users to access essential data from a warehouse or operational data store in very less time. A data mart is a cost-effective solution to efficiently acquire meaningful insights since it only comprises data relevant to a specific business area.
 
 ## Architecture
+
+Types of Data Warehouse Architectures: https://www.javatpoint.com/data-warehouse-architecture
+- 1, 2 or 3 tiered
 ---
 * Several possible architectures to building a Data Warehouse
 1. **Kimball's Bus Architecture**:
@@ -41,6 +44,8 @@ A data mart is a subject-oriented database that is usually a split portion of a 
 
 ## OLAP Cubes
 ---
+* The OLAP cube is a data structure optimized for very quick data analysis.
+
 * An OLAP Cube is an aggregation of a fact metric on a number of dimensions
 
 * OLAP cubes need to store the finest grain of data in case drill-down is needed
